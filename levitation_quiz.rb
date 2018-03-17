@@ -4,6 +4,8 @@ def levitation_quiz
 	answer = gets.chomp
 	if (answer != "Wingardium Leviosa")
 	  levitation_quiz()
+	else
+	  puts "You passed the quiz!"
 	end
 end
 
