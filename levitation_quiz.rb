@@ -7,6 +7,6 @@ def levitation_quiz
 	end
 	puts "You passed the quiz!"
 end
-
+#When doing this lab, try typing it into irb to see if it works.
 
 
