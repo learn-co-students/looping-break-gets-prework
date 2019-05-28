@@ -2,7 +2,8 @@
 def levitation_quiz
 	loop do
     puts "What is the spell that enacts levitation?"
-    break if answer == "Winga rdium Leviosa"
+		answer = gets
+		break if answer == "Winga rdium Leviosa"
   end
-  puts "You passed the quiz!"
+  return "You passed the quiz!"
 end
